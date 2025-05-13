@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dore Gopou Junior | Développeur Full-Stack</title>
+  <meta name="description" content="Portfolio de Dore Gopou Junior, développeur web full-stack spécialisé en JavaScript et frameworks modernes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <h1 class="logo">Dore Gopou <span>Junior</span></h1>
+      <ul class="nav-links">
+        <li><a href="#accueil" class="nav-link">Accueil</a></li>
+        <li><a href="#competences" class="nav-link">Compétences</a></li>
+        <li><a href="#projets" class="nav-link">Projets</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section id="accueil" class="hero">
+    <div class="hero-content container">
+      <div class="hero-text">
+        <h2>Etudiant Ingenieur Logiciel</h2>
+        <h1>Dore Gopou Junior</h1>
+        <p>Je conçois et développe des expériences web modernes, performantes et accessibles.</p>
+        <div class="hero-cta">
+          <a href="#projets" class="btn">Voir mes projets</a>
+          <a href="#contact" class="btn btn-outline">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="image/pdp.png.jpg"Dore Gopou Junior">
+      </div>
+    </div>
+  </section>
+
+  <section id="competences" class="section competences">
+    <div class="container">
+      <h2 class="section-title">Mes <span>Compétences</span></h2>
+      <div class="competences-grid">
+        <div class="competence-card">
+          <i class="fas fa-code"></i>
+          <h3>Dev</h3>
+          <p>HTML, CSS, C, C++, Assembly</p>
+        </div>
+        <div class="competence-card">
+          <i class="fas fa-server"></i>
+          <h3>SQL</h3>
+          <p>PHPmyAdmin, XAMMP, MySQL</p>
+        </div>
+        <div class="competence-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Responsive</h3>
+          <p>Design adaptatif, Mobile First</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets" class="section projets">
+    <div class="container">
+      <h2 class="section-title">Mes <span>Projets</span></h2>
+      <div class="projets-grid">
+        <div class="projet-card">
+          <div class="projet-image">
+            <img src="image/ytb.png.jpg" alt="Projet E-Commerce">
+          </div>
+          <div class="projet-content">
+            <h3>Clone YouTube</h3>
+            <p>Site similaire a l'interface YouTube</p>
+            <div class="projet-technos">
+              <span>html</span>
+              <span>Css</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="projet-card">
+          <div class="projet-image">
+            <img src="image/echec.png" alt="Projet Application Météo">
+          </div>
+          <div class="projet-content">
+            <h3>Jeu D'echecs</h3>
+            <p>Développement d'un jeu d'échecs complet avec IA basique, utilisant des algorithmes de recherche.</p>
+            <div class="projet-technos">
+              <span>C++</span>
+              <span>Algo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Me <span>Contacter</span></h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>Juniordore.00@gmail.com</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>+212 6 19 48 40 91</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Fes, Maroc</p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Votre nom" required>
+          <input type="email" placeholder="Votre email" required>
+          <textarea placeholder="Votre message" required></textarea>
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Dore Gopou Junior. Tous droits réservés.</p>
+      <div class="footer-links">
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
